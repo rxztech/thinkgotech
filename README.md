@@ -4,18 +4,21 @@
 
 ## 本地预览和编辑
 
-解压后双击 `index.html`。请保留 `assets` 文件夹及内部结构。
+解压后双击 `index.html`。点击页眉的 **English** 或 **中文**，可在当前页面切换语言。请保留 `en`、`assets` 文件夹及内部结构。
 
 | 文件 | 用途 |
 | --- | --- |
-| `index.html` | 导航和 64 个页面视图的内容 |
+| `index.html` | 中文版的导航和 64 个页面视图 |
+| `en/index.html` | 英文版的导航和 64 个页面视图 |
 | `assets/css/site.css` | 页面布局、配色和移动端样式 |
 | `assets/js/site.js` | 菜单、页面切换和浏览器前进／后退 |
 | `assets/images/` | 官网图片和标志，产品品牌图位于 `brands/` |
 | `CNAME` | 站点域名 `www.thinkgotech.com` |
 | `.nojekyll` | 让 GitHub Pages 直接发布静态文件 |
 
-各页面通过网址中的 `#` 定位，例如 `index.html#overseas` 和 `index.html#products`。
+各页面通过网址中的 `#` 定位，例如 `index.html#overseas` 和 `en/index.html#overseas`。
+
+更新现有 GitHub Pages 仓库时，将解压后的 `index.html`、`en/` 和 `assets/` 提交到当前发布分支的根目录即可。若仓库已有自己的 `CNAME`，沿用仓库里的文件。
 
 ## 发布到 GitHub Pages
 
